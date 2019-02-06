@@ -1,13 +1,12 @@
-# Git
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
-
-##Introduction
+# Introduction to Git
 This lab is intended to give you a basic overview of Git. It includes exercises and a references covering common Git operations. If you are already familiar with Git, feel free to start with the exercises and use the reference as you find it necessary. If this is your first time using git, we recommend that you at least skim through the reference before you start on the exercises. This way you will have a good idea of where things are going into the exercises. 
 
 If you wished for more basic, step by step introduction to Git to bring you up to speed, there are plenty of tutorials online as text or as Youtube videos. Your responsibility is to make sure that you understand what you can do with any of the operations you will be performing. All of these operations will becoming relevant soon and mastering them now will save you a lot of time and energy in the near future. That being said, the following are some more thorough tutorials. 
 
 a. [Git Tutorial for Beginners](https://www.youtube.com/watch?v=HVsySz-h9r4)   
 b. [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started) 
+
+Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
 
 ## Submission
 ### GitHub Username
