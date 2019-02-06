@@ -10,9 +10,9 @@ Although you're encouraged to collaborate with others if you are stuck, the lab 
 
 ## Submission
 ### GitHub Username
-After you have created your Git account please submit your github username using this [form](). All your work from this section is expected to be on the repository you will share with us and we will use that repository to do extra-grading of your work after the deadline.
+After you have created your Git account please submit your github username using this [form](https://docs.google.com/forms/d/e/1FAIpQLSfNhz_sMaXTcWf7MAVkSB5aAGbjC7KEX80mEAs62hnYrW2tZg/viewform?usp=sf_link). All your work from this section is expected to be on the repository you will share with us and we will use that repository to do extra-grading of your work after the deadline.
 ### Gradescope
-In order to get credit for this assignment, you will submit a zip file containing your repository (rss_lab1) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from github.mit.edu as a zip, zip a **local clone** instead. 
+In order to get credit for this assignment, you will submit a zip file containing your repository (rss_lab1.zip) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from github.mit.edu as a zip, **zip a local clone** instead. 
 
 The exercises are graded by completion with the exception that we will take points off for poor commit messages. Like any other concept in Git, there’s plenty of documentation regarding writing effective [Git commit messages](https://api.coala.io/en/latest/Developers/Writing_Good_Commits.html). All that we require for a good commit message in the following exercises is that your commit message describes what changes you’re committing clearly.
 
@@ -54,10 +54,9 @@ Follow these steps to create a new repository, and push your Linux exercise solu
 4. Push the file to the remote using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
 ## Problem 1: Commit and push files
-1. Download these [files]() as a zip and extract them in your repository directory or the following command from your repository directory.      
-`$ wget https://www.dropbox.com/s/06tl9mxw5e3a6po/Archive.zip`      
-You should have rss_lab1/random_file.sh, rss_lab1/checks.sh, rss_lab1/random_file_generator.py,and rss_lab1/dream_within_a_dream.txt as well as what have already been there.
-2. Push the files to the remote repository using the terminal.
+1. Clone the **intro_to_git** repository     
+`$ git clone https://github.com/mit-rss/intro_to_git.git`
+2. Push the files (random_file.sh, checks.sh, random_file_generator.py, and dream_within_a_dream.txt) to the remote repository **rss_lab1** using the terminal.
 3. Write your commit history to a file called history.txt using the terminal (hint: Use redirections from the Linux terminal section and **git log**).
 4. Push history.txt
 
@@ -113,7 +112,7 @@ Merge your branch back to master. (hint: **git merge**)
 1. Repeat steps 1-5 with the text file name is random3.txt in this case. 
 2. Rebase your branch on master 
 
-NOTE: Do not undo any of the commits performed so far!
+**NOTE**: Do not undo any of the commits performed so far!
 
 
 
