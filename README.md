@@ -53,7 +53,7 @@ Follow these steps to create a new repository, and push your Linux exercise solu
 3. Put your completed Linux exercise command template file in your new repository. 
 4. Push the file to the remote using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
-#### Setup Files
+### Commit and push files
 1. Download these [files]() as a zip and extract them in your repository directory or the following command from your repository directory.      
 `$ wget https://www.dropbox.com/s/06tl9mxw5e3a6po/Archive.zip`      
 You should have rss_lab1/random_file.sh, rss_lab1/checks.sh, rss_lab1/random_file_generator.py,and rss_lab1/dream_within_a_dream.txt as well as what have already been there.
@@ -61,10 +61,10 @@ You should have rss_lab1/random_file.sh, rss_lab1/checks.sh, rss_lab1/random_fil
 3. Write your commit history to a file called history.txt using the terminal (hint: Use redirections from the Linux terminal section and **git log**).
 4. Push history.txt
 
-## Conflicts and conflict resolution 
+## Problem 1: Conflicts and conflict resolution 
 In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
 
-### Playing with commits
+### 1a. Playing with commits
 1. Run `$ bash random_file.sh`
 2. Cache your remote (hint: **git fetch**).
 3. Stage random.txt for commit (don’t commit yet) 
@@ -73,7 +73,7 @@ In this section, we will train you to handle some of the tricky situations you c
 6. Commit your changes and try pushing 
 Git should reject your push and the problem is that the remote repository has changes that are not present in the local. If you carefully read the displayed message, you should see about the same thing. Try the following three solutions.
 
-### Stash and pull
+### 1b. Stash and pull
 One of the approaches to this problem is by stashing then pulling as discussed in the reference. In this section, we ask you to use that method to solve the above problem. Complete the following steps to do this.
 1. Undo the commit.
 2. Stash your changes. 
@@ -83,24 +83,24 @@ One of the approaches to this problem is by stashing then pulling as discussed i
 6. Push random.txt and diff.txt
 Now take a look your commit history (commit log), and compare it to the log file from the setup. There should be an extra commit with message “The bot is committing random changes …”.
 
-### Merge
+### 1c. Merge
 Another solution to try is to merge the two branches using git merge, as discussed in the reference. Again, complete the following steps.
 1. Repeat the steps 1-6 from "Playing with commits" above.
 2. Merge the changes using git merge
 3. Again, resolve the conflict by keeping your changes only this time. You may use diff.txt help separate the changes.  
 4. Push your changes.
 
-### Rebase
+### 1d. Rebase
 As discussed in the reference, another way of merging changes is by rebase, which we will practice with this section. Complete the following steps. 
 1. Again, Repeat steps 1-6 from following with commits.
 2. This time, use git rebase to solve the problem.
 3. Again, resolve the conflict by keeping the remote changes only this time.
 Make sure that you understand the difference between merge and rebase.
 
-## Branching
+## Problem 2: Branching
 The reference discusses the philosophy behind branching and a couple of branching commands. In this section, we ask you practice branching by completing the following two exercises. 
 
-### Branch and merge
+### 2a. Branch and merge
 This section concerns with branching and merging. We ask you create a branch, perform a commit and finally merge back to master.
 1. Create a new branch based on master and call it whatever you want.
 2. Switch to the new branch and make sure that you’re in that branch
@@ -109,7 +109,7 @@ This section concerns with branching and merging. We ask you create a branch, pe
 5. Push random2.txt 
 Merge your branch back to master. (hint: **git merge**)
 
-### Branch and rebase
+### 2b. Branch and rebase
 1. Repeat steps 1-5 with the text file name is random3.txt in this case. 
 2. Rebase your branch on master 
 
