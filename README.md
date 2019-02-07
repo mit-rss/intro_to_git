@@ -61,7 +61,7 @@ Follow these steps to create a new repository, and push your Linux exercise solu
 4. Push history.txt
 
 ## Problem 2: Conflicts and conflict resolution 
-In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
+In this class, you will frequently run into conflicts since you'll be working with a team in a short span of time. In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
 
 ### Playing with commits
 1. Run `$ bash random_file.sh`
