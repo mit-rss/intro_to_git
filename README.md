@@ -14,7 +14,9 @@ After you have created your Git account please submit your github username using
 ### Gradescope
 In order to get credit for this assignment, you will submit a zip file containing your repository (rss_lab1.zip) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from github.mit.edu as a zip, **zip a local clone** instead. 
 
-The exercises are graded by completion with the exception that we will take points off for poor commit messages. Like any other concept in Git, there’s plenty of documentation regarding writing effective [Git commit messages](https://api.coala.io/en/latest/Developers/Writing_Good_Commits.html). All that we require for a good commit message in the following exercises is that your commit message describes what changes you’re committing clearly.
+The exercises are graded by completion with the exception that we will take points off for poor commit messages. Like any other concept in Git, there’s plenty of documentation regarding writing effective [Git commit messages](https://api.coala.io/en/latest/Developers/Writing_Good_Commits.html). All that we require for a good commit message in the following exercises is that your commit message describes what changes you’re committing clearly.    
+    
+This lab is due on **Friday, February 15th at 1:00PM EST**.
 
 ## References
 The following are selected chapters from [Pro Git](https://git-scm.com/book/en/v2), feel free to read the entire manual. Also visit [Git command reference](https://git-scm.com/docs) to get help with commands and command syntax.
