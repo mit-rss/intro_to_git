@@ -9,8 +9,6 @@ b. [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/g
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
 
 ## Submission
-### GitHub Username
-After you have created your Git account please submit your github username using this [form](https://docs.google.com/forms/d/e/1FAIpQLSfNhz_sMaXTcWf7MAVkSB5aAGbjC7KEX80mEAs62hnYrW2tZg/viewform?usp=sf_link). All your work from this section is expected to be on the repository you will share with us and we will use that repository to do extra-grading of your work after the deadline.
 ### Gradescope
 In order to get credit for this assignment, you will submit a zip file containing your repository (rss_lab1.zip) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from github.mit.edu as a zip, **zip a local clone** instead. 
          
