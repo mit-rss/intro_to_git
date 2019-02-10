@@ -13,7 +13,7 @@ Although you're encouraged to collaborate with others if you are stuck, the lab 
 ### Gradescope
 In order to get credit for this assignment, you will submit a zip file containing your repository (```rss_lab1.zip```) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from [github.mit.edu](github.mit.edu) as a zip, **zip a local clone** instead.   
          
-This lab is due on **Friday, February 13th at 1:00PM EST**.
+This lab is due on **Wednesday, February 20th at 1:00PM EST**.
 
 ## References
 The following are selected chapters from [Pro Git](https://git-scm.com/book/en/v2), feel free to read the entire manual. Also visit [Git command reference](https://git-scm.com/docs) to get help with commands and command syntax.
