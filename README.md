@@ -130,7 +130,8 @@ python random_file_generator.py --file random2.txt
 Merge your branch back to master. (hint: **```git merge```**)
 
 ### Branch and rebase
-1. Repeat steps 1-5 with the text file name is ```random3.txt``` in this case. 
+1. Repeat steps 1-4 where the text file name is ```random3.txt``` and using a different branch name
+2. Commit your changes
 2. Rebase your branch on master 
 
 **NOTE**: Do not undo any of the commits performed so far!
