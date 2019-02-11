@@ -53,10 +53,10 @@ Follow the steps to enable your computer to interact with your github account vi
 Follow these steps to create a new repository, and push your Linux exercise solution using the terminal. We expect everyone to complete this section - it should take you no time if you’re already familiar with git. 
 1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create your first repository on [github.mit.edu](github.mit.edu) and call it **```rss_lab1```**.  
 2. Click the "Clone or download" on your repository's page and copy the **SSH link (not HTTPS)**. It should have the form ```git@github.mit.edu:USERNAME/rss_lab1.git```. Then clone that URL to your computer with the ```git clone``` command.
-3. Put your completed Linux exercise command template file in your cloned repository. 
+3. Afterwards, put your completed Linux exercise command template file in your cloned repository. 
 4. Push the file to the remote using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
-## Problem 1: Commit and push files
+## Problem 1: Commit and push starter files
 1. Clone the **```intro_to_git```** repository
 
 ```
