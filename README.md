@@ -8,6 +8,10 @@ b. [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/g
 
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
 
+## GitHub
+
+All git-controlled projects in this class, including lab instructions and support software, will be available on GitHub, an online service for hosting git repositories. MIT has its own such hosting service (github.mit.edu), that is separate from github.com. While lab instructions may appear on github.com, you will be publishing work for this class on MIT's GitHub, so make sure you keep this difference in mind. Github.mit.edu and github.com are not linked so anything you publish on one will not appear in the other. 
+
 ## Submission
 
 ### Gradescope
