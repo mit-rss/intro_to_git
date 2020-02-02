@@ -3,8 +3,9 @@ This lab is intended to give you a basic overview of Git. Learning how to use Gi
 
 If you wished for more basic, step by step introduction to Git to bring you up to speed, there are plenty of tutorials online as text or as Youtube videos. Your responsibility is to make sure that you understand what you can do with any of the operations you will be performing. All of these operations will becoming relevant soon and mastering them now will save you a lot of time and energy in the near future. That being said, the following are some more thorough tutorials. 
 
-a. [Git Tutorial for Beginners](https://www.youtube.com/watch?v=HVsySz-h9r4)   
-b. [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started) 
+a. [Pro Git - Free Reference](https://www.git-scm.com/book/en/v2)
+b. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
+c. [Learn Git Branching - Interactive](https://www.learngitbranching.js.org)
 
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
 
