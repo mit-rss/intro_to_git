@@ -111,13 +111,6 @@ Another solution to try is to merge the two branches using git merge, as discuss
 3. Again, resolve the conflict by keeping your changes only this time. You may use ```diff.txt``` to help separate the changes.  
 4. Push your changes.
 
-### Rebase
-As discussed in the reference, another way of merging changes is by rebase, which we will practice with this section. Complete the following steps. 
-1. Again, Repeat steps 1-6 from following with commits.
-2. This time, use ```git rebase``` to solve the problem.
-3. Again, resolve the conflict by keeping the remote changes only this time.
-Make sure that you understand the difference between merge and rebase.
-
 ## Problem 3: Branching
 The reference discusses the philosophy behind branching and a couple of branching commands. In this section, we ask you practice branching by completing the following two exercises. 
 
