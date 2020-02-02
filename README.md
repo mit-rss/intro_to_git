@@ -1,7 +1,11 @@
+
+| **Due Date**  | **Wednesday, February 19th at 1:00PM EST**  |
+|---------------|---------------------------------------------|
+
 # Intro to Git
 This lab is intended to give you a basic overview of Git. Learning how to use Git will help you work and delegate with your team efficiently. If you are already familiar with Git, feel free to start with the exercises and use the reference as you find it necessary. If this is your first time using git, we recommend that you at least skim through the reference before you start on the exercises. This way you will have a good idea of where things are going into the exercises. 
 
-If you wished for more basic, step by step introduction to Git to bring you up to speed, there are plenty of tutorials online as text or as Youtube videos. Your responsibility is to make sure that you understand what you can do with any of the operations you will be performing. All of these operations will becoming relevant soon and mastering them now will save you a lot of time and energy in the near future. That being said, the following are some more thorough tutorials. 
+If you wished for more basic, step by step introduction to Git to bring you up to speed, there are plenty of tutorials online as text or as Youtube videos. Your responsibility is to make sure that you understand what you can do with any of the operations you will be performing. All of these operations will become relevant soon and mastering them now will save you a lot of time and energy in the near future. The following are some useful references. 
 
 1. [Pro Git - Free Reference](https://www.git-scm.com/book/en/v2)
 2. [Git Cheatsheet](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
@@ -12,7 +16,7 @@ Although you're encouraged to collaborate with others if you are stuck, the lab 
 
 ## GitHub
 
-All git-controlled projects in this class, including lab instructions and support software, will be available on GitHub, an online service for hosting git repositories. MIT has its own such hosting service (github.mit.edu), that is separate from github.com. While lab instructions may appear on github.com, you will be publishing work for this class on MIT's GitHub, so make sure you keep this difference in mind. Github.mit.edu and github.com are not linked so anything you publish on one will not appear in the other. 
+All git-controlled projects in this class, including lab instructions and support software, will be available on GitHub, an online service for hosting git repositories. MIT has its own such hosting service (github.mit.edu), that is separate from github.com. While lab instructions may appear on github.com, you will be publishing work for this class on MIT's GitHub, so make sure you keep this difference in mind. github.mit.edu and github.com are not linked so anything you publish on one will not appear in the other.
 
 ## Submission
 
@@ -51,27 +55,29 @@ Run the following commands to configure git
 Github will use that username and email to identify your contributions (git commits).
 
 ### Generate your SSH Keys
-Follow the steps to enable your computer to interact with your github account via the Secure Shell. 
+Follow the steps to enable your computer to interact with your github account via the Secure Shell. Your SSH key will allow you to authenticate with MIT Github so that you can make changes.
+
 1. Follow the [instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) to generate your SSH key and add it to the ```ssh-agent```. Make sure to remember your passphrase if you have entered one. We recommend that you skip the passphrase (just hit enter). 
 2. Follow the [instructions](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add your SSH key to your Github account.
 
 ### Create a repository 
-Follow these steps to create a new repository, and push your Linux exercise solution using the terminal. We expect everyone to complete this section - it should take you no time if you’re already familiar with git. 
-1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create your first repository on [github.mit.edu](github.mit.edu) and call it **```rss_lab1```**.  
-2. Click the "Clone or download" on your repository's page and copy the **SSH link (not HTTPS)**. It should have the form ```git@github.mit.edu:USERNAME/rss_lab1.git```. Then clone that URL to your computer with the ```git clone``` command.
-3. Afterwards, put your completed Linux exercise command template file in your cloned repository. 
-4. Push the file to the remote using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
+Follow these steps to create a new repository containing your `linux_exercise.txt` file from Lab 1A using the terminal.
+
+1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create a **private** repository on [github.mit.edu](github.mit.edu) and call it **`rss_lab1`**. **Note:** Make sure that you are selecting the **private** option in step 4.
+2. Click the "Clone or download" on your repository's page and copy the **SSH link (not HTTPS)**. It should have the form `git@github.mit.edu:USERNAME/rss_lab1.git`. Then clone that URL to your computer with the `git clone` command.
+3. Afterwards, copy your completed `linux_exercise.txt` (from Lab 1A) into your cloned repository. 
+4. Push your changes to the `origin` remote (this is the copy of your **rss_lab1** repo hosted on MIT GitHub) using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
 ## Problem 1: Commit and push starter files
-1. Clone the **```intro_to_git```** repository
+1. Clone the **`intro_to_git`** repository
 
 ```
 git clone https://github.com/mit-rss/intro_to_git.git
 ```
     
-2. Copy the files (```random_file.sh```, ```checks.sh```, ```random_file_generator.py```, and ```dream_within_a_dream.txt```) into your local copy of **```rss_lab1```**. Add, commit and push these files to the remote [github.mit.edu](github.mit.edu) repo using the terminal.
-3. Write your commit history to a file called ```history.txt``` using the terminal (hint: Use redirections from the Linux terminal section and **```git log```**).
-4. Add commit and push ```history.txt``` to the remote **```rss_lab1```**.
+2. Copy the files `simulate_conflict.sh`, `bot.sh`, `random_file_generator.py`, and `dream_within_a_dream.txt` into your local copy of **`rss_lab1`** (which you created above). Add, commit and push these files to the remote using the terminal.
+3. Write your commit history to a file called `history.txt` using the terminal (hint: Use redirections from the Linux terminal section and **`git log`**).
+4. Add `history.txt`, commit your changes, and push.
 
 ## Problem 2: Conflicts and conflict resolution 
 In this class, you will frequently run into conflicts since you'll be working with a team in a short span of time. In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
@@ -79,24 +85,26 @@ In this class, you will frequently run into conflicts since you'll be working wi
 ### Playing with commits
 1. Run:
 ```
-bash random_file.sh
+bash simulate_conflict.sh
 ```
-2. Cache your remote (hint: **```git fetch```**).
-3. Stage ```random.txt``` for commit (don’t commit yet) 
+This will create an independent copy of your rss_lab1 repo, and generate a random file, simulating a teammate doing work. At the same time, it will generate a random file in your local copy of the repo, simulating you doing some work on the same file. However, your virtual teammate already pushed their changes to the shared MIT GitHub repo. This will create a situation where you have some work in your local repo that is different from what is present in the GitHub remote.
+
+2. Cache your remote (hint: **`git fetch`**). This will download any changes from the GitHub remote to you local repo without attempting to merge them.   
+3. Stage `random.txt` for commit (don’t commit yet) 
 4. Run
 
 ```
 git diff origin/master
 ```
 
-and write the output to a file called ```diff.txt```.
+and write the output to a file called `diff.txt`.
 
-5. Stage ```diff.txt``` for a commit 
-6. Commit your changes and try pushing. Git should reject your push and the problem is that the remote repository has changes that are not present in the local. If you carefully read the displayed message, you should see about the same thing. Try the following three solutions.
+5. Stage `diff.txt` for a commit 
+6. Commit your changes and try pushing. Git should reject your push since the remote repository has changes that are not present in the local. If you carefully read the displayed message, you should see about the same thing. Try the following two solutions.
 
 ### Stash and pull
 One of the approaches to this problem is by stashing then pulling as discussed in the reference. In this section, we ask you to use that method to solve the above problem. Complete the following steps to do this.
-1. Perform a command that "undoes" the commit, as if you had never ran it in the first place. I.e. the commit message is not in the history and the changed files are staged. (Hint: involves ```git reset```)
+1. Perform a command that "undoes" the commit, as if you had never ran it in the first place. I.e. the commit message is not in the history and the changed files are staged. (Hint: involves `git reset`)
 2. Stash your changes. 
 3. Pull the remote.
 4. Pop the stash and inspect the resulting ```random.txt``` file.
@@ -110,6 +118,8 @@ Another solution to try is to merge the two branches using git merge, as discuss
 2. Merge the changes using ```git merge```
 3. Again, resolve the conflict by keeping your changes only this time. You may use ```diff.txt``` to help separate the changes.  
 4. Push your changes.
+
+Usually git merge will be the more straightforward conflict resolution approach, but the stash and pull approach can be very useful in situations where you would like to first examine and test someone else's contributions.
 
 ## Problem 3: Branching
 The reference discusses the philosophy behind branching and a couple of branching commands. In this section, we ask you practice branching by completing the following two exercises. 
