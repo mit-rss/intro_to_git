@@ -142,4 +142,3 @@ Merge your branch back to master. (hint: **`git merge`**)
 In order to get credit for this assignment, you will submit a zip file containing your repository (```rss_lab1.zip```) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from [github.mit.edu](github.mit.edu) as a zip, **zip a local clone** instead.   
          
 This lab is due on **Wednesday, February 19th at 1:00PM EST**.
-## Submission
