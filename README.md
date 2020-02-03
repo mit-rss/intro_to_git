@@ -14,16 +14,11 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
 
+As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. 
+
 ## GitHub
 
 All git-controlled projects in this class, including lab instructions and support software, will be available on GitHub, an online service for hosting git repositories. MIT has its own such hosting service (github.mit.edu), that is separate from github.com. While lab instructions may appear on github.com, you will be publishing work for this class on MIT's GitHub, so make sure you keep this difference in mind. github.mit.edu and github.com are not linked so anything you publish on one will not appear in the other.
-
-## Submission
-
-### Gradescope
-In order to get credit for this assignment, you will submit a zip file containing your repository (```rss_lab1.zip```) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from [github.mit.edu](github.mit.edu) as a zip, **zip a local clone** instead.   
-         
-This lab is due on **Wednesday, February 19th at 1:00PM EST**.
 
 ## References
 The following are selected chapters from [Pro Git](https://git-scm.com/book/en/v2), feel free to read the entire manual. Also visit [Git command reference](https://git-scm.com/docs) to get help with commands and command syntax.
@@ -140,3 +135,11 @@ python random_file_generator.py --file random2.txt
 Merge your branch back to master. (hint: **`git merge`**)
 
 **NOTE**: Do not undo any of the commits performed so far!
+
+## Submission
+
+### Gradescope
+In order to get credit for this assignment, you will submit a zip file containing your repository (```rss_lab1.zip```) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git. Please **do not download** from [github.mit.edu](github.mit.edu) as a zip, **zip a local clone** instead.   
+         
+This lab is due on **Wednesday, February 19th at 1:00PM EST**.
+## Submission
