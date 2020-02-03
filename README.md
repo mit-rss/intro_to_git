@@ -9,8 +9,9 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 
 1. [Pro Git - Free Reference](https://www.git-scm.com/book/en/v2)
 2. [Git Cheatsheet](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
-3. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
-4. [Learn Git Branching - Interactive](https://www.learngitbranching.js.org)
+3. [Interactive Git Visualization](http://git-school.github.io/visualizing-git/)
+4. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
+5. [Learn Git Branching - Interactive](https://www.learngitbranching.js.org)
 
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](http://piazza.com/mit/spring2020/614116405).
 
