@@ -73,6 +73,7 @@ git clone https://github.com/mit-rss/intro_to_git.git
 2. Copy the files `simulate_conflict.sh`, `bot.sh`, `random_file_generator.py`, and `dream_within_a_dream.txt` into your local copy of **`rss_lab1`** (which you created above). Add, commit and push these files to the remote using the terminal.
 3. Write your commit history to a file called `history.txt` using the terminal (hint: Use redirections from the Linux terminal section and **`git log`**).
 4. Add `history.txt`, commit your changes, and push.
+5. Verify that the files have been pushed by looking at the remote repo on github.mit.edu
 
 ## Problem 2: Conflicts and conflict resolution 
 In this class, you will frequently run into conflicts since you'll be working with a team in a short span of time. In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
