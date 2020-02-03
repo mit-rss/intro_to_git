@@ -12,7 +12,7 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 3. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
 4. [Learn Git Branching - Interactive](https://www.learngitbranching.js.org)
 
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189).
+Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](http://piazza.com/mit/spring2020/614116405).
 
 As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. 
 
