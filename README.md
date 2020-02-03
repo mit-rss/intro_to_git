@@ -131,10 +131,9 @@ This section concerns with branching and merging. We ask you create a branch, pe
 python random_file_generator.py --file random2.txt
 ```
 
-5. Push `random2.txt`
-Merge your branch back to master. (hint: **`git merge`**)
-
+5. Push `random2.txt`. Merge your branch with the master branch. (hint: **`git merge`**)
 **NOTE**: Do not undo any of the commits performed so far!
+6. Finally, push the merged changes from the master branch. 
 
 ## Submission
 
