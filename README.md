@@ -107,16 +107,16 @@ One of the approaches to this problem is by stashing then pulling as discussed i
 1. Perform a command that "undoes" the commit, as if you had never ran it in the first place. I.e. the commit message is not in the history and the changed files are staged. (Hint: involves `git reset`)
 2. Stash your changes. 
 3. Pull the remote.
-4. Pop the stash and inspect the resulting ```random.txt``` file.
+4. Pop the stash and inspect the resulting `random.txt` file.
 5. Resolve the conflict by keeping both changes on the file (remove the conflict markers).
-6. Push ```random.txt``` and ```diff.txt```.
-Now take a look your commit history (commit log), and compare it to the log file from the setup. There should be an extra commit with message “The bot is committing random changes …”.
+6. Push `random.txt` and `diff.txt`.
+Now take a look your commit history (commit log), and compare it to the log file from the setup. There should be an extra commit with message “The bot is committing random changes...”.
 
 ### Merge
 Another solution to try is to merge the two branches using git merge, as discussed in the reference. Again, complete the following steps.
 1. Repeat the steps 1-6 from "Playing with commits" above.
-2. Merge the changes using ```git merge```
-3. Again, resolve the conflict by keeping your changes only this time. You may use ```diff.txt``` to help separate the changes.  
+2. Merge the changes using `git merge`
+3. Again, resolve the conflict by keeping your changes only this time. You may use `diff.txt` to help separate the changes.  
 4. Push your changes.
 
 Usually git merge will be the more straightforward conflict resolution approach, but the stash and pull approach can be very useful in situations where you would like to first examine and test someone else's contributions.
@@ -126,6 +126,7 @@ The reference discusses the philosophy behind branching and a couple of branchin
 
 ### Branch and merge
 This section concerns with branching and merging. We ask you create a branch, perform a commit and finally merge back to master.
+
 1. Create a new branch based on master and call it whatever you want.
 2. Switch to the new branch and make sure that you’re in that branch
 3. Push your branch to the remote (your branch should appear on the remote list).
@@ -135,12 +136,7 @@ This section concerns with branching and merging. We ask you create a branch, pe
 python random_file_generator.py --file random2.txt
 ```
 
-5. Push ```random2.txt``` 
-Merge your branch back to master. (hint: **```git merge```**)
-
-### Branch and rebase
-1. Repeat steps 1-4 where the text file name is ```random3.txt``` and using a different branch name
-2. Commit your changes
-2. Rebase your branch on master 
+5. Push `random2.txt`
+Merge your branch back to master. (hint: **`git merge`**)
 
 **NOTE**: Do not undo any of the commits performed so far!
