@@ -5,14 +5,14 @@ trap 'echo "Error! Could not run bot"' ERR
 
 MYREMOTE="$(git config --get remote.origin.url)"
 
-TMPDIR=$(mktemp -d -t rssbot-XXXXXXXXXX)
+MYTMPDIR=`mktemp -d 2>/dev/null || mktemp -d -t 'rssbot'`
 
-if [ ! -d $TMPDIR ]; then
+if [ ! -d $MYTMPDIR ]; then
     echo "fatal error: call a TA"
     exit 1
 fi
 
-cd $TMPDIR
+cd $MYTMPDIR
 echo "[bot] I am cloning the repo from ${MYREMOTE}..."
 git clone "${MYREMOTE}" rss_lab1 --quiet
 
@@ -26,5 +26,5 @@ git add --all
 echo "[bot] Going to commit now"
 git commit -m "The bot is committing random changes" --quiet
 git push --quiet
-rm -rf $TMPDIR
+rm -rf $MYTMPDIR
 echo "[bot] Ok, done, I pushed my work to ${MYREMOTE}!"
