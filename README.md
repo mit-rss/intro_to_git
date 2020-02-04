@@ -62,7 +62,7 @@ Follow these steps to create a new repository containing your `linux_exercise.tx
 1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create a **private** repository on [github.mit.edu](github.mit.edu) and call it **`rss_lab1`**. **Note:** Make sure that you are selecting the **private** option in step 4.
 2. After creating the repository you will be presented with a new page that list an **SSH link (not HTTPS)** under the blue "Quick Setup" section. It should have the form `git@github.mit.edu:USERNAME/rss_lab1.git`. Clone that URL to your computer with the `git clone` command. Once files have been added to the repo, you can always access this URL from the green "Clone or Download" button.
 3. Afterwards, copy your completed `linux_exercise.txt` (from Lab 1A) into your cloned repository. 
-4. Add and commit your changes (which are the addition of `linux_exercise.txt`), and push your them to the `origin` remote (this is the copy of your **rss_lab1** repo hosted on MIT GitHub) using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
+4. Add and commit your changes (which are the addition of `linux_exercise.txt`), and push them to the `origin` remote (this is the copy of your **rss_lab1** repo hosted on MIT GitHub) using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
 ## Problem 1: Commit and push starter files
 1. Clone the **`intro_to_git`** repository
