@@ -62,7 +62,7 @@ Follow these steps to create a new repository containing your `linux_exercise.tx
 1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create a **private** repository on [github.mit.edu](github.mit.edu) and call it **`rss_lab1`**. **Note:** Make sure that you are selecting the **private** option in step 4.
 2. After creating the repository you will be presented with a new page that list an **SSH link (not HTTPS)** under the blue "Quick Setup" section. It should have the form `git@github.mit.edu:USERNAME/rss_lab1.git`. Clone that URL to your computer with the `git clone` command. Once files have been added to the repo, you can always access this URL from the green "Clone or Download" button.
 3. Afterwards, copy your completed `linux_exercise.txt` (from Lab 1A) into your cloned repository. 
-4. Add and commit your changes (which are the addition of `linux_exercise.txt`), and push them to the `origin` remote (this is the copy of your **rss_lab1** repo hosted on MIT GitHub) using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
+4. **Add and commit your changes (which are the addition of `linux_exercise.txt`), and push them to the `origin` remote** (this is the copy of your `rss_lab1` repo hosted on MIT GitHub) using the terminal. You may follow these [instructions](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/#platform-linux) if you need guidance. 
 
 ## Problem 1: Commit and push starter files
 1. Clone the **`intro_to_git`** repository
@@ -71,10 +71,11 @@ Follow these steps to create a new repository containing your `linux_exercise.tx
 git clone https://github.com/mit-rss/intro_to_git.git
 ```
     
-2. Copy the files `simulate_conflict.sh`, `bot.sh`, `random_file_generator.py`, and `dream_within_a_dream.txt` into your local copy of **`rss_lab1`** (which you created above). Add, commit and push these files to the remote using the terminal.
-3. Write your commit history to a file called `history.txt` using the terminal (hint: Use redirections from the Linux terminal section and **`git log`**).
-4. Add `history.txt`, commit your changes, and push.
-5. Verify that the files have been pushed by looking at the remote repo on github.mit.edu
+2. Copy the files `simulate_conflict.sh`, `bot.sh`, `random_file_generator.py`, and `dream_within_a_dream.txt` into your local copy of **`rss_lab1`** (which you created above). 
+3. **Add, commit and push these files to the remote using the terminal.**
+4. Write your commit history to a file called `history.txt` using the terminal (hint: Use redirections from the Linux terminal section and **`git log`**).
+5. Add `history.txt`, commit your changes, and push.
+6. Verify that the files have been pushed by looking at the remote repo on github.mit.edu
 
 ## Problem 2: Conflicts and conflict resolution 
 In this class, you will frequently run into conflicts since you'll be working with a team in a short span of time. In this section, we will train you to handle some of the tricky situations you can get into using Git. In each exercise you will run into a problem, we will try to help you understand what the problem is, and then suggest places and commands to look into for a solution. Your task is to use the clues to fix the problem and help yourself proceed to the next exercise.
