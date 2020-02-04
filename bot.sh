@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 set -eE
 
-trap 'Error! Could not run bot' ERR
+trap 'echo "Error! Could not run bot"' ERR
 
 MYREMOTE="$(git config --get remote.origin.url)"
 
-if [ ! -d ~/Downloads/.rss_bot ]; then
-	mkdir ~/Downloads/.rss_bot
-	cd ~/Downloads/.rss_bot || rm -rf ~/Downloads/.rss_bot
-	echo "[bot] I am cloning the repo from ${MYREMOTE}..."
-	git clone "${MYREMOTE}" rss_lab1 --quiet
+TMPDIR=$(mktemp -d -t rssbot-XXXXXXXXXX)
+
+if [ ! -d $TMPDIR ]; then
+    echo "fatal error: call a TA"
+    exit 1
 fi
+
+cd $TMPDIR
+echo "[bot] I am cloning the repo from ${MYREMOTE}..."
+git clone "${MYREMOTE}" rss_lab1 --quiet
 
 # cd into cloned repo
 cd rss_lab1
@@ -22,6 +26,5 @@ git add --all
 echo "[bot] Going to commit now"
 git commit -m "The bot is committing random changes" --quiet
 git push --quiet
-rm -rf ~/Downloads/.rss_bot
+rm -rf $TMPDIR
 echo "[bot] Ok, done, I pushed my work to ${MYREMOTE}!"
-
