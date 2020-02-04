@@ -144,7 +144,7 @@ python random_file_generator.py --file random2.txt
 ## Submission
 
 ### Gradescope
-In order to get credit for this assignment, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://gradescope.com/) under lab1b_exercises_git.
+In order to get credit for this assignment, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://gradescope.com/) under **Lab 1B: Intro To Git**.
 
 Please **do not download** from [github.mit.edu](github.mit.edu) as a zip, **zip a local clone** instead.   
          
