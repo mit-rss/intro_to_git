@@ -1,8 +1,12 @@
 
-| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**  |
-|---------------|---------------------------------------------|
+| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**                                 |
+|---------------|----------------------------------------------------------------------------|
+|  **Submission**   | `rss_lab1.zip` on [Gradescope](https://gradescope.com/)|
 
 # Intro to Git
+
+## Introduction
+
 This lab is intended to give you a basic overview of Git. Learning how to use Git will help you work and delegate with your team efficiently. If you are already familiar with Git, feel free to start with the exercises and use the reference as you find it necessary. If this is your first time using git, we recommend that you at least skim through the reference before you start on the exercises. This way you will have a good idea of where things are going into the exercises. 
 
 If you wished for more basic, step by step introduction to Git to bring you up to speed, there are plenty of tutorials online as text or as Youtube videos. Your responsibility is to make sure that you understand what you can do with any of the operations you will be performing. All of these operations will become relevant soon and mastering them now will save you a lot of time and energy in the near future. The following are some useful references. 
@@ -16,6 +20,12 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://tinyurl.com/RSS2021-piazza).
 
 As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. (Also check out `man giteveryday` and `man gittutorial`.)
+
+## Submission
+
+Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://gradescope.com/) under Lab 1B: Intro To Git.
+
+Please do not download your repository from [github.mit.edu](github.mit.edu) as a zip, zip a local clone instead.
 
 ## GitHub
 
@@ -147,11 +157,4 @@ python random_file_generator.py --file random2.txt
 **NOTE**: Do not undo any of the commits performed so far!
 7. Finally, **push the changes you just created** by merging the two branches to the remote.
 
-## Submission
 
-### Gradescope
-In order to get credit for this assignment, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://gradescope.com/) under **Lab 1B: Intro To Git**.
-
-Please **do not download** from [github.mit.edu](https://github.mit.edu) as a zip, **zip a local clone** instead.   
-         
-This lab is due on **Wednesday, February 24th at 1:00PM EST**.
