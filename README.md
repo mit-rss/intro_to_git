@@ -1,7 +1,8 @@
-
-| **Due Date**  | **Monday, February 7th at 1:00PM EST**                                 |
+| Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-|  **Submission**   | `rss_lab1.zip` on [Gradescope](https://gradescope.com/)|
+| [Base Installation](https://github.com/mit-rss/base_installation) (nothing to submit)  | Monday, February 7th at 1:00PM EST |
+| [Intro to Linux](https://github.com/mit-rss/intro_to_linux) Gradescope Submission  | Monday, February 7th at 1:00PM EST |
+| Intro to Git Gradescope Submission  | Monday, February 7th at 1:00PM EST |
 
 # Intro to Git
 
