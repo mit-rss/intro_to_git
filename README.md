@@ -1,5 +1,5 @@
 
-| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**                                 |
+| **Due Date**  | **Monday, February 7th at 1:00PM EST**                                 |
 |---------------|----------------------------------------------------------------------------|
 |  **Submission**   | `rss_lab1.zip` on [Gradescope](https://gradescope.com/)|
 
@@ -17,15 +17,15 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 4. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
 5. [Learn Git Branching - Interactive](https://learngitbranching.js.org/)
 
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://tinyurl.com/RSS2021-piazza).
+Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza TODO: fix link](https://tinyurl.com/RSS2021-piazza).
 
 As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. (Also check out `man giteveryday` and `man gittutorial`.)
 
 ## Submission
 
-Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://gradescope.com/) under Lab 1B: Intro To Git.
+Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://www.gradescope.com/courses/362909) under Lab 1B: Intro To Git.
 
-Please do not download your repository from [github.mit.edu](github.mit.edu) as a zip, zip a local clone instead.
+Please do not download your repository from [github.mit.edu](github.mit.edu) as a zip; zip a local clone instead.
 
 ## GitHub
 
