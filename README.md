@@ -108,7 +108,7 @@ This will create an independent copy of your rss_lab1 repo, and generate a rando
 4. Run
 
 ```
-git diff origin/master
+git diff origin/main
 ```
 
 and write the output to a file called `diff.txt`.
@@ -144,7 +144,7 @@ The reference discusses the philosophy behind branching and a couple of branchin
 
 ### Branch and merge
 
-1. Create a new branch based on master and call it whatever you want.
+1. Create a new branch based on main and call it whatever you want.
 2. Switch to the new branch and **make sure that you’re in that branch**.
 3. **Push your branch to the remote**. You should see a message that your new branch is now tracking a remote branch of the same name.
 4. Run
@@ -154,7 +154,7 @@ python random_file_generator.py --file random2.txt
 ```
 
 5. **Add, commit and push `random2.txt`**.
-6. **Merge your branch with the master branch.** (hint: **`git merge`**) There should be no conflicts, so Git will be able to automatically perform a "fast-forward" merge without your intervention.
+6. **Merge your branch with the main branch.** (hint: **`git merge`**) There should be no conflicts, so Git will be able to automatically perform a "fast-forward" merge without your intervention.
 **NOTE**: Do not undo any of the commits performed so far!
 7. Finally, **push the changes you just created** by merging the two branches to the remote.
 
