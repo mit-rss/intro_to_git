@@ -1,8 +1,8 @@
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Monday, February 7th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 7th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 7th at 1:00PM EST |
+| Base Installation (nothing to submit)  | Monday, February 13th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 13th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 13th at 1:00PM EST |
 
 # Intro to Git
 
