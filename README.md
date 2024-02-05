@@ -1,8 +1,8 @@
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Monday, February 13th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 13th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 13th at 1:00PM EST |
+| Base Installation (nothing to submit)  | Monday, February 12th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053193)  | Monday, February 12th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053367)  | Monday, February 12th at 1:00PM EST |
 
 # Intro to Git
 
@@ -18,13 +18,13 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 4. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
 5. [Learn Git Branching - Interactive](https://learngitbranching.js.org/)
 
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://tinyurl.com/RSS2022-piazza).
+Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/ls3u1ci910p1fc).
 
 As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. (Also check out `man giteveryday` and `man gittutorial`.)
 
 ## Submission
 
-Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://www.gradescope.com/courses/362909) under Lab 1B: Intro To Git.
+Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://www.gradescope.com/courses/728544/assignments/4053367) under Lab 1B: Intro To Git.
 
 Please do not download your repository from [github.com](github.com) as a zip; zip a local clone instead.
 
