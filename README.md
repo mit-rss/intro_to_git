@@ -150,7 +150,7 @@ The reference discusses the philosophy behind branching and a couple of branchin
 4. Run
 
 ```
-python random_file_generator.py --file random2.txt
+python random_file_generator.py --filename random2.txt
 ```
 
 5. **Add, commit and push `random2.txt`**.
