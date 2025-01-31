@@ -1,9 +1,3 @@
-| Deliverable | Due Date              |
-|---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Monday, February 5th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053193)  | Wednesday, February 14th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053367)  | Wednesday, February 14th at 1:00PM EST |
-
 # Intro to Git
 
 ## Introduction
@@ -18,7 +12,7 @@ If you wished for more basic, step by step introduction to Git to bring you up t
 4. [Git Tutorial for Beginners - Video](https://www.youtube.com/watch?v=HVsySz-h9r4) 
 5. [Learn Git Branching - Interactive](https://learngitbranching.js.org/)
 
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/ls3u1ci910p1fc).
+Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/mit/spring2025/64200164052124/home).
 
 As with other terminal commands, you can use man pages to get information about git commands as such: to get the man page for the command `git push` you can type `man git-push` in the terminal. (Also check out `man giteveryday` and `man gittutorial`.)
 
