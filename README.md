@@ -90,7 +90,7 @@ git clone https://github.com/mit-rss/intro_to_git.git
     
 2. Copy the files `simulate_conflict.sh`, `bot.sh`, `random_file_generator.py`, and `dream_within_a_dream.txt` into your local copy of **`rss_lab1`** (which you created above). 
 3. **Add, commit and push these files to the remote using the terminal.**
-4. Write your commit history to a file called `history.txt` using the terminal (hint: Use redirections from the Linux terminal section and **`git log`**).
+4. Write your commit history to a file called `history.txt` using the terminal (hint: use redirections from the Linux terminal section and **`git log`**).
 5. **Add `history.txt`, commit your changes, and push.**
 6. Verify that the files have been pushed by looking at the remote repo on github.com
 
