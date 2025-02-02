@@ -62,7 +62,7 @@ Visit [github.com](https://github.com/) to create a Github Account if you do not
 
 ### Configure Git Locally
 
-Run the following commands (in your Debian racecar environment) to configure git
+Run the following commands **in your racecar Docker environment** to configure git
 
     git config --global user.name <YOUR NAME>
     git config --global user.email <YOUR EMAIL ADDRESS>
@@ -86,6 +86,8 @@ Follow these steps to create a new repository containing your `linux_exercise.tx
 **Tip:** If you get lost along the way and would like to see a helpful summary of what the current state of your repo is, `git status` will provide that.
 
 ## Problems
+
+Complete the following problems **inside your Docker container**.
 
 ### Problem 1: Commit and Push Starter Files
 1. Clone the **`intro_to_git`** repository
