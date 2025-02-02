@@ -1,3 +1,9 @@
+| Deliverable | Due Date              |
+|---------------|----------------------------------------------------------------------------|
+| Base Installation (nothing to submit)  | Wednesday, February 5th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710353)  | Monday, February 10th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710354)  | Monday, February 10th at 1:00PM EST |
+
 # Intro to Git
 
 ## Table of Contents
@@ -18,7 +24,7 @@ As with other terminal commands, you can use man pages to get information about 
 
 ## Gradescope Submission
 
-Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://www.gradescope.com/courses/728544/assignments/4053367) under **Lab 1B: Intro To Git**.
+Once you have completed the exercises and problems below, you will submit a zip file containing your repository (`rss_lab1.zip`) to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710354) under **Lab 1B: Intro To Git**.
 
 Please do not download your repository from GitHub as a zip; zip a local clone instead.
 
