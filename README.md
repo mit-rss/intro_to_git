@@ -16,10 +16,12 @@
 
 ## Introduction
 
-This lab is intended to give you a basic overview of Git. Learning how to use Git will help you work and delegate with your team efficiently.
+This lab is intended to give you a basic overview of [Git](https://git-scm.com/). Git is a version control system that tracks changes to files
+and enables collaborative development by allowing multiple people to work on the same project simultaneously.
+Learning how to use Git will help you work and delegate with your team efficiently.
 If you are already familiar with Git, feel free to start with the exercises and use the reference as you find it necessary. If this is
-your first time using git, we recommend that you at least skim through the reference before you start on the exercises. This way you
-will have a good idea of where things are going into the exercises. 
+your first time using Git, we recommend that you at least skim through the reference before you start on the exercises. This way you
+will have a good idea of where things are going into the exercises.
 
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get
 practice with skills that will be essential later on in the course when you are in teams. If you have questions,
@@ -92,6 +94,7 @@ Your SSH key will allow you to authenticate with Github so that you can make cha
 2. Follow the [instructions](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add your SSH key to your Github account.
 
 ### Create a repository 
+
 Follow these steps to create a new repository containing your `linux_exercise.txt` file from Lab 1A using the terminal.
 
 1. Follow steps 1-6 in these [instructions](https://help.github.com/articles/create-a-repo/) to create a **private** repository on [github.com](https://github.com) and call it **`rss_lab1`**. **Note:** Make sure that you are selecting the **private** option in step 4.

@@ -20,7 +20,7 @@ git clone "${MYREMOTE}" rss_lab1 --quiet
 cd rss_lab1
 
 echo "[bot] Making some changes in my local copy..."
-python random_file_generator.py 
+python3 random_file_generator.py
 git add --all
 
 echo "[bot] Going to commit now"
